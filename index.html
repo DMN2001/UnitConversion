@@ -5,14 +5,25 @@
 	</head>
 
 <body>
-    <div id="container"
-    <form id="calc">
-        <input id= "startval" type= "number" placeholder= "Enter a number" required>
-        <select id="unitsfrom" name="unitsfrom">
-            <option value="in">in.</option>
+    <div id="container">
+        <form id="calculator">
+            <input id= "startval" type= "number" placeholder= "Enter a number" required>
+            <select id="unitsfrom" name="From">
+                <option value="in">in.</option>
+                <option value="ft">ft.</option>
+                <option value="yd">yd.</option>
+                <option value="mi">mi.</option>
+                <option value="mm">mm.</option>
+                <option value="cm">cm.</option>
+                <option value="m">m.</option>
+                <option value="km">km.</option>
         </select>
         <button type= "submit">Convert!</button>
 
-    </form>
-</body>
+        </form>
+    
+        <p id="output"></p>
+    
+        </div>
+    </body>
 </html>
