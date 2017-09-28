@@ -1,1 +1,47 @@
 /* Conversion Calc Stylesheet */
+body {
+    background-color: darkorange;
+    font-family: sans-serif;
+    text-align: center;
+}
+#startval {
+    width: 200px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+}
+#unitsfrom {
+    width: 200px;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+}
+#submitbtn {
+    width: 100px;
+    height: 30px;
+    background-color: darkorange;
+    color: black;
+}
+#submitbtn:focus {
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+#submitbtn:active {
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+#container {
+    background-color: white;
+    padding: 0 auto;
+    margin: 0 auto;
+    margin-top: 0 auto;
+    width: 50vh;
+    height: 50vh;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
