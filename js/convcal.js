@@ -62,7 +62,7 @@ const convert = {
 	run: (formula, measurement) => formula(measurement)
 }
 
-/*form.onsubmit() {
+form.onsubmit = () => {
   event.preventDefault() // Keep the page from refreshing on submit
   let formula = dd.options[dd.selectedIndex].value;
   let measurement = form.elements['startval'].value;
@@ -70,4 +70,4 @@ const convert = {
   console.log(measurement);
   let result = convert.run(convert[formula],measurement);
   output.innerHTML = result;
-}*/
+}
